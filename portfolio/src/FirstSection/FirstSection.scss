@@ -1,0 +1,27 @@
+.parallax1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: big john;
+  width: 100%;
+  height: auto;
+
+  background-image: url(https://raw.githubusercontent.com/JohnHofbauer/website/main/images/div1.jpg);
+  background-size: cover;
+  background-position: center center; /* Center the image, crop from both sides */
+  height: 100vh; /* fill the window */
+}
+
+.parallax2 {
+  background-image: url(https://raw.githubusercontent.com/JohnHofbauer/website/main/images/robotics.jpg);
+  background-size: cover;
+  background-position: center center; /* Center the image, crop from both sides */
+  height: 100vh; /* 60% of the window */
+}
+
+.parallax1_text {
+  font-size: 60px;
+  text-shadow: -10px 10px 0px azure, -20px 20px 0px azure;
+  padding: 8px 24px;
+}
