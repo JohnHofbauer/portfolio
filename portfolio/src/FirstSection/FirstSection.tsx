@@ -15,7 +15,9 @@ export default function FirstSection() {
             backgroundSize: "cover",
           }}
         >
-          <p className="parallax1_text">Parallax</p>
+          <div className="parallax1">
+            <p className="parallax1_text">Parallax</p>
+          </div>
         </ParallaxLayer>
       </Parallax>
     </div>
