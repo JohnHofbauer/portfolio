@@ -1,5 +1,6 @@
 import React from "react";
 import "./FirstSection.scss";
+import Graduation from "./Graduation.jpg";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 export default function FirstSection() {
@@ -10,8 +11,7 @@ export default function FirstSection() {
           offset={0}
           speed={2.5}
           style={{
-            backgroundImage:
-              "https://raw.githubusercontent.com/JohnHofbauer/website/main/images/div1.jpg",
+            backgroundImage: `url:(${Graduation})`,
             backgroundSize: "cover",
           }}
         >
