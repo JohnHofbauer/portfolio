@@ -15,7 +15,7 @@ export default function FirstSection() {
     */
 
     <div style={{ width: "100%", height: "100%" }}>
-      <Parallax pages={1} style={{ top: "0", left: "0" }}>
+      <Parallax pages={2} style={{ top: "0", left: "0" }}>
         <ParallaxLayer offset={1} speed={0}>
           <BlurryCodeText />
         </ParallaxLayer>
@@ -26,13 +26,12 @@ export default function FirstSection() {
             className="parallaxImage"
           ></img>
         </ParallaxLayer>
-
         <ParallaxLayer offset={0} speed={0.1}>
           <div className="parallaxDiv">
             <p className="parallax1_text">John Hofbauer</p>
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={0} speed={1.5}>
+        <ParallaxLayer offset={2} speed={1.5}>
           <CoreValues />
         </ParallaxLayer>
         <ParallaxLayer offset={0.99} speed={1.5}>
