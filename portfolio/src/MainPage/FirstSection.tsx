@@ -18,7 +18,7 @@ export default function FirstSection() {
     */
 
     <div style={{ width: "100%", height: "100%" }}>
-      <Parallax pages={3} style={{ top: "0", left: "0" }}>
+      <Parallax pages={4} style={{ top: "0", left: "0" }}>
         {/* First page, create teh background and the overlay of text  */}
         <ParallaxLayer offset={1} speed={0}>
           <BlurryCodeText />
@@ -35,24 +35,23 @@ export default function FirstSection() {
             <p className="parallax1_text">John Hofbauer</p>
           </div>
         </ParallaxLayer>
+        {/*Second Page, Education  */}
         <ParallaxLayer offset={0.99} speed={1}>
           <SecondSection />
         </ParallaxLayer>
 
-        {/*Second Page, Education  */}
-
         {/* Render Order - non clickable objects need to be rendered first 
           Last Page Page, Connections and skills and footer */}
-        <ParallaxLayer offset={2} speed={3}>
+        <ParallaxLayer offset={3} speed={3}>
           <CoreValues />
         </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={0}>
+        <ParallaxLayer offset={3} speed={0}>
           <Footer />
         </ParallaxLayer>
 
         {/*Render Order -  clickable objects need to be rendered last
           Third Page, Connections and skills  */}
-        <ParallaxLayer offset={1.9} speed={1}>
+        <ParallaxLayer offset={2} speed={1}>
           <Robotics />
           <ContactInformation />
         </ParallaxLayer>

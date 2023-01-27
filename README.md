@@ -20,6 +20,7 @@ new url for react app https://johnhofbauer.github.io/portfolio/
 - included React-spring with npm
 - included school projects as the background and added a frosted blur.
 - changed the Repository to and url to maintain separation between javascript depended and non-javascript depended sites.
+- Created an implemented a Icon with Gimp for the tab image.
 
 Update 0.14
 
