@@ -3,6 +3,9 @@ import "./FirstSection.scss";
 import Graduation from "./Graduation.jpg";
 import SecondSection from "../EducationInfomation/Education";
 import CoreValues from "../CoreValues/CoreValues";
+import Robotics from "../Robotics/Robotics";
+import ContactInformation from "../ContactInformation/ContactInformation";
+import Footer from "../Footer/Footer";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import BlurryCodeText from "../Background/BlurryCodeText";
 
@@ -15,7 +18,8 @@ export default function FirstSection() {
     */
 
     <div style={{ width: "100%", height: "100%" }}>
-      <Parallax pages={2} style={{ top: "0", left: "0" }}>
+      <Parallax pages={3} style={{ top: "0", left: "0" }}>
+        {/* First page, create teh background and the overlay of text  */}
         <ParallaxLayer offset={1} speed={0}>
           <BlurryCodeText />
         </ParallaxLayer>
@@ -31,16 +35,26 @@ export default function FirstSection() {
             <p className="parallax1_text">John Hofbauer</p>
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={1.5}>
-          <CoreValues />
-        </ParallaxLayer>
-        <ParallaxLayer offset={0.99} speed={1.5}>
+        <ParallaxLayer offset={0.99} speed={1}>
           <SecondSection />
         </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={1}>
-          <div className="parallax1">
-            <p className="parallax1_text">The World Is my Oyster</p>
-          </div>
+
+        {/*Second Page, Education  */}
+
+        {/* Render Order - non clickable objects need to be rendered first 
+          Last Page Page, Connections and skills and footer */}
+        <ParallaxLayer offset={2} speed={3}>
+          <CoreValues />
+        </ParallaxLayer>
+        <ParallaxLayer offset={2} speed={0}>
+          <Footer />
+        </ParallaxLayer>
+
+        {/*Render Order -  clickable objects need to be rendered last
+          Third Page, Connections and skills  */}
+        <ParallaxLayer offset={1.9} speed={1}>
+          <Robotics />
+          <ContactInformation />
         </ParallaxLayer>
       </Parallax>
     </div>
