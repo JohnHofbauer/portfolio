@@ -68,5 +68,5 @@ export const TimeLineData = [
   { year: 2019, text: "Hack-A-Thon At Penn State University Park" },
   { year: 2020, text: "Software Developer Internship at NavSea" },
   { year: 2021, text: "Graduated From Penn State University" },
-  { year: 2022, text: "QA & Junior Software Engineer at Position at Capgemini" },
+  { year: 2022, text: "QA & Junior Software Engineering Position at Capgemini" },
 ];
