@@ -1,5 +1,11 @@
 import React, { useState, useRef, useEffect } from "react";
 
+import dynamic from "next/dynamic";
+
+const WordCloud = dynamic(() => import("./ReactWordCloud"), {
+  ssr: false,
+});
+
 import {
   CarouselButton,
   CarouselButtonDot,
@@ -63,10 +69,11 @@ const CoreValue = () => {
     window.addEventListener("resize", handleResize);
   }, []);
 
+  const isClient = typeof window !== "undefined";
   return (
     <Section id="about">
       <SectionTitle>Core Values</SectionTitle>
-      <SectionText>text</SectionText>
+      {isClient && <WordCloud />}
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {CoreValueData.map((item, index) => (

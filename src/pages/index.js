@@ -7,10 +7,14 @@ import Timeline from "../components/TimeLine/TimeLine";
 import CoreValues from "../components/CoreValues/CoreValues";
 import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
+import Head from "next/head";
 
 const Home = () => {
   return (
     <Layout>
+      <Head>
+        <link rel="icon" type="image/png" href="images/icon/iconsmall.png" />
+      </Head>
       <Section grid>
         <Hero />
         <BgAnimation />
