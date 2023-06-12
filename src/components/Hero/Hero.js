@@ -19,13 +19,9 @@ const Hero = () => (
         The purpose of My Portfolio is to track my learning progress and provide
         a general overview to the many projects I have completed in the past.
       </SectionText>
-      <Button
-        onClick={() =>
-          (window.location = "https://johnhofbauer.github.io/website")
-        }
-      >
-        Learn More
-      </Button>
+      <a href="https://johnhofbauer.github.io/website">
+        <Button>No JS Page</Button>
+      </a>
     </LeftSection>
   </Section>
 );

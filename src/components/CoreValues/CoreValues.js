@@ -10,18 +10,18 @@ import {
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
-} from "./TimeLineStyles";
+} from "./CoreValuesStyles";
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { TimeLineData } from "../../constants/constants";
+import { CoreValueData } from "../../constants/constants";
 
-const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
+const TOTAL_CAROUSEL_COUNT = CoreValueData.length;
 
-const Timeline = () => {
+const CoreValue = () => {
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
 
@@ -34,7 +34,7 @@ const Timeline = () => {
 
     if (carouselRef.current) {
       const scrollLeft = Math.floor(
-        carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length)
+        carouselRef.current.scrollWidth * 0.7 * (i / CoreValueData.length)
       );
 
       scroll(carouselRef.current, scrollLeft);
@@ -46,7 +46,7 @@ const Timeline = () => {
       const index = Math.round(
         (carouselRef.current.scrollLeft /
           (carouselRef.current.scrollWidth * 0.7)) *
-          TimeLineData.length
+          CoreValueData.length
       );
 
       setActiveItem(index);
@@ -59,23 +59,17 @@ const Timeline = () => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
     };
-    if (typeof window !== "undefined") {
-      window.addEventListener("resize", handleResize);
-    }
+
+    window.addEventListener("resize", handleResize);
   }, []);
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
-      <SectionText>
-        As I undertake this ambitious project, I intend to utilize GitHub as a
-        documentation platform for my growth in web research and development
-        practices. I am committed to acquiring invaluable expertise that enables
-        me to discern the most appropriate framework for a given scenario.
-      </SectionText>
+      <SectionTitle>Core Values</SectionTitle>
+      <SectionText>text</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
-          {TimeLineData.map((item, index) => (
+          {CoreValueData.map((item, index) => (
             <CarouselMobileScrollNode
               key={index}
               final={index === TOTAL_CAROUSEL_COUNT - 1}
@@ -87,7 +81,7 @@ const Timeline = () => {
                 onClick={(e) => handleClick(e, index)}
               >
                 <CarouselItemTitle>
-                  {item.year}
+                  {item.title}
                   <CarouselItemImg
                     width="208"
                     height="6"
@@ -121,14 +115,14 @@ const Timeline = () => {
                     </defs>
                   </CarouselItemImg>
                 </CarouselItemTitle>
-                <CarouselItemText>{item.text}</CarouselItemText>
+                <CarouselItemText>{item.description}</CarouselItemText>
               </CarouselItem>
             </CarouselMobileScrollNode>
           ))}
         </>
       </CarouselContainer>
       <CarouselButtons>
-        {TimeLineData.map((item, index) => (
+        {CoreValueData.map((item, index) => (
           <CarouselButton
             key={index}
             index={index}
@@ -145,4 +139,4 @@ const Timeline = () => {
   );
 };
 
-export default Timeline;
+export default CoreValue;
