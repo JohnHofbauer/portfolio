@@ -73,7 +73,7 @@ const CoreValue = () => {
   return (
     <Section id="about">
       <SectionTitle>Core Values</SectionTitle>
-      {isClient && <WordCloud />}
+      <WordCloud />
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {CoreValueData.map((item, index) => (
