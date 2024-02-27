@@ -1,3 +1,11 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["src_components_CoreValues_ReactWordCloud_js"],{
 
 /***/ "./src/components/CoreValues/ReactWordCloud.js":
@@ -7,197 +15,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_wordcloud__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-wordcloud */ "./node_modules/react-wordcloud/dist/index.module.js");
-/* module decorator */ module = __webpack_require__.hmd(module);
-var _jsxFileName = "J:\\OneDrive\\OneDrive\\Documents\\GitHub\\portfolio\\src\\components\\CoreValues\\ReactWordCloud.js",
-    _this = undefined;
-
-var __jsx = (react__WEBPACK_IMPORTED_MODULE_0___default().createElement);
-
-
-var words = [{
-  text: "Integrity",
-  value: 8
-}, {
-  text: "Excellence",
-  value: 4
-}, {
-  text: "Innovation",
-  value: 2
-}, {
-  text: "Teamwork",
-  value: 4
-}, {
-  text: "Respect",
-  value: 4
-}, {
-  text: "Adaptability",
-  value: 4
-}, {
-  text: "Sustainability",
-  value: 3
-}, {
-  text: "Transparency",
-  value: 3
-}, {
-  text: "Diversity and Inclusion",
-  value: 4
-}, {
-  text: "Accountability",
-  value: 5
-}, {
-  text: "Customer Focus",
-  value: 5
-}, {
-  text: "Empowerment",
-  value: 4
-}, {
-  text: "Continuous Learning",
-  value: 3
-}, {
-  text: "Open Communication",
-  value: 3
-}, {
-  text: "Creativity",
-  value: 3
-}, {
-  text: "Trust",
-  value: 4
-}, {
-  text: "Collaboration",
-  value: 4
-}, {
-  text: "Responsibility",
-  value: 4
-}, {
-  text: "Quality",
-  value: 4
-}, {
-  text: "Humility",
-  value: 3
-}, {
-  text: "Passion",
-  value: 4
-}, {
-  text: "Resilience",
-  value: 3
-}, {
-  text: "Ownership",
-  value: 4
-}, {
-  text: "Flexibility",
-  value: 3
-}, {
-  text: "Empathy",
-  value: 4
-}, {
-  text: "Social Responsibility",
-  value: 3
-}, {
-  text: "Equality",
-  value: 4
-}, {
-  text: "Inclusivity",
-  value: 4
-}, {
-  text: "Empowering Others",
-  value: 4
-}, {
-  text: "Work-Life Balance",
-  value: 3
-}, {
-  text: "Fairness",
-  value: 4
-}];
-
-var ReactWordCloud = function ReactWordCloud() {
-  return __jsx("div", {
-    style: {
-      height: "auto",
-      width: "auto"
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 3
-    }
-  }, __jsx(react_wordcloud__WEBPACK_IMPORTED_MODULE_1__.default, {
-    words: words,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 5
-    }
-  }));
-};
-
-_c = ReactWordCloud;
-/* harmony default export */ __webpack_exports__["default"] = (ReactWordCloud);
-
-var _c;
-
-$RefreshReg$(_c, "ReactWordCloud");
-
-;
-    var _a, _b;
-    // Legacy CSS implementations will `eval` browser code in a Node.js context
-    // to extract CSS. For backwards compatibility, we need to check we're in a
-    // browser context before continuing.
-    if (typeof self !== 'undefined' &&
-        // AMP / No-JS mode does not inject these helpers:
-        '$RefreshHelpers$' in self) {
-        var currentExports = module.__proto__.exports;
-        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;
-        // This cannot happen in MainTemplate because the exports mismatch between
-        // templating and execution.
-        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports, module.id);
-        // A module can be accepted automatically based on its exports, e.g. when
-        // it is a Refresh Boundary.
-        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports)) {
-            // Save the previous exports on update so we can compare the boundary
-            // signatures.
-            module.hot.dispose(function (data) {
-                data.prevExports = currentExports;
-            });
-            // Unconditionally accept an update to this module, we'll check if it's
-            // still a Refresh Boundary later.
-            module.hot.accept();
-            // This field is set when the previous version of this module was a
-            // Refresh Boundary, letting us know we need to check for invalidation or
-            // enqueue an update.
-            if (prevExports !== null) {
-                // A boundary can become ineligible if its exports are incompatible
-                // with the previous exports.
-                //
-                // For example, if you add/remove/change exports, we'll want to
-                // re-execute the importing modules, and force those components to
-                // re-render. Similarly, if you convert a class component to a
-                // function, we want to invalidate the boundary.
-                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)) {
-                    module.hot.invalidate();
-                }
-                else {
-                    self.$RefreshHelpers$.scheduleUpdate();
-                }
-            }
-        }
-        else {
-            // Since we just executed the code for the module, it's possible that the
-            // new exports made it ineligible for being a boundary.
-            // We only care about the case when we were _previously_ a boundary,
-            // because we already accepted this update (accidental side effect).
-            var isNoLongerABoundary = prevExports !== null;
-            if (isNoLongerABoundary) {
-                module.hot.invalidate();
-            }
-        }
-    }
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_wordcloud__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-wordcloud */ \"./node_modules/react-wordcloud/dist/index.module.js\");\n/* module decorator */ module = __webpack_require__.hmd(module);\nvar _jsxFileName = \"/Users/vaporeon/Documents/git/portfolio/src/components/CoreValues/ReactWordCloud.js\",\n    _this = undefined;\n\nvar __jsx = (react__WEBPACK_IMPORTED_MODULE_0___default().createElement);\n\n\nvar words = [{\n  text: \"Integrity\",\n  value: 8\n}, {\n  text: \"Excellence\",\n  value: 4\n}, {\n  text: \"Innovation\",\n  value: 2\n}, {\n  text: \"Teamwork\",\n  value: 4\n}, {\n  text: \"Respect\",\n  value: 4\n}, {\n  text: \"Adaptability\",\n  value: 4\n}, {\n  text: \"Sustainability\",\n  value: 3\n}, {\n  text: \"Transparency\",\n  value: 3\n}, {\n  text: \"Diversity and Inclusion\",\n  value: 4\n}, {\n  text: \"Accountability\",\n  value: 5\n}, {\n  text: \"Customer Focus\",\n  value: 5\n}, {\n  text: \"Empowerment\",\n  value: 4\n}, {\n  text: \"Continuous Learning\",\n  value: 3\n}, {\n  text: \"Open Communication\",\n  value: 3\n}, {\n  text: \"Creativity\",\n  value: 3\n}, {\n  text: \"Trust\",\n  value: 4\n}, {\n  text: \"Collaboration\",\n  value: 4\n}, {\n  text: \"Responsibility\",\n  value: 4\n}, {\n  text: \"Quality\",\n  value: 4\n}, {\n  text: \"Humility\",\n  value: 3\n}, {\n  text: \"Passion\",\n  value: 4\n}, {\n  text: \"Resilience\",\n  value: 3\n}, {\n  text: \"Ownership\",\n  value: 4\n}, {\n  text: \"Flexibility\",\n  value: 3\n}, {\n  text: \"Empathy\",\n  value: 4\n}, {\n  text: \"Social Responsibility\",\n  value: 3\n}, {\n  text: \"Equality\",\n  value: 4\n}, {\n  text: \"Inclusivity\",\n  value: 4\n}, {\n  text: \"Empowering Others\",\n  value: 4\n}, {\n  text: \"Work-Life Balance\",\n  value: 3\n}, {\n  text: \"Fairness\",\n  value: 4\n}];\n\nvar ReactWordCloud = function ReactWordCloud() {\n  return __jsx(\"div\", {\n    style: {\n      height: \"auto\",\n      width: \"auto\"\n    },\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 39,\n      columnNumber: 3\n    }\n  }, __jsx(react_wordcloud__WEBPACK_IMPORTED_MODULE_1__.default, {\n    words: words,\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 40,\n      columnNumber: 5\n    }\n  }));\n};\n\n_c = ReactWordCloud;\n/* harmony default export */ __webpack_exports__[\"default\"] = (ReactWordCloud);\n\nvar _c;\n\n$RefreshReg$(_c, \"ReactWordCloud\");\n\n;\n    var _a, _b;\n    // Legacy CSS implementations will `eval` browser code in a Node.js context\n    // to extract CSS. For backwards compatibility, we need to check we're in a\n    // browser context before continuing.\n    if (typeof self !== 'undefined' &&\n        // AMP / No-JS mode does not inject these helpers:\n        '$RefreshHelpers$' in self) {\n        var currentExports = module.__proto__.exports;\n        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;\n        // This cannot happen in MainTemplate because the exports mismatch between\n        // templating and execution.\n        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports, module.id);\n        // A module can be accepted automatically based on its exports, e.g. when\n        // it is a Refresh Boundary.\n        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports)) {\n            // Save the previous exports on update so we can compare the boundary\n            // signatures.\n            module.hot.dispose(function (data) {\n                data.prevExports = currentExports;\n            });\n            // Unconditionally accept an update to this module, we'll check if it's\n            // still a Refresh Boundary later.\n            module.hot.accept();\n            // This field is set when the previous version of this module was a\n            // Refresh Boundary, letting us know we need to check for invalidation or\n            // enqueue an update.\n            if (prevExports !== null) {\n                // A boundary can become ineligible if its exports are incompatible\n                // with the previous exports.\n                //\n                // For example, if you add/remove/change exports, we'll want to\n                // re-execute the importing modules, and force those components to\n                // re-render. Similarly, if you convert a class component to a\n                // function, we want to invalidate the boundary.\n                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)) {\n                    module.hot.invalidate();\n                }\n                else {\n                    self.$RefreshHelpers$.scheduleUpdate();\n                }\n            }\n        }\n        else {\n            // Since we just executed the code for the module, it's possible that the\n            // new exports made it ineligible for being a boundary.\n            // We only care about the case when we were _previously_ a boundary,\n            // because we already accepted this update (accidental side effect).\n            var isNoLongerABoundary = prevExports !== null;\n            if (isNoLongerABoundary) {\n                module.hot.invalidate();\n            }\n        }\n    }\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vc3JjL2NvbXBvbmVudHMvQ29yZVZhbHVlcy9SZWFjdFdvcmRDbG91ZC5qcz9lM2Y4Il0sIm5hbWVzIjpbIndvcmRzIiwidGV4dCIsInZhbHVlIiwiUmVhY3RXb3JkQ2xvdWQiLCJoZWlnaHQiLCJ3aWR0aCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQUE7QUFDQTtBQUVBLElBQU1BLEtBQUssR0FBRyxDQUNaO0FBQUVDLE1BQUksRUFBRSxXQUFSO0FBQXFCQyxPQUFLLEVBQUU7QUFBNUIsQ0FEWSxFQUVaO0FBQUVELE1BQUksRUFBRSxZQUFSO0FBQXNCQyxPQUFLLEVBQUU7QUFBN0IsQ0FGWSxFQUdaO0FBQUVELE1BQUksRUFBRSxZQUFSO0FBQXNCQyxPQUFLLEVBQUU7QUFBN0IsQ0FIWSxFQUlaO0FBQUVELE1BQUksRUFBRSxVQUFSO0FBQW9CQyxPQUFLLEVBQUU7QUFBM0IsQ0FKWSxFQUtaO0FBQUVELE1BQUksRUFBRSxTQUFSO0FBQW1CQyxPQUFLLEVBQUU7QUFBMUIsQ0FMWSxFQU1aO0FBQUVELE1BQUksRUFBRSxjQUFSO0FBQXdCQyxPQUFLLEVBQUU7QUFBL0IsQ0FOWSxFQU9aO0FBQUVELE1BQUksRUFBRSxnQkFBUjtBQUEwQkMsT0FBSyxFQUFFO0FBQWpDLENBUFksRUFRWjtBQUFFRCxNQUFJLEVBQUUsY0FBUjtBQUF3QkMsT0FBSyxFQUFFO0FBQS9CLENBUlksRUFTWjtBQUFFRCxNQUFJLEVBQUUseUJBQVI7QUFBbUNDLE9BQUssRUFBRTtBQUExQyxDQVRZLEVBVVo7QUFBRUQsTUFBSSxFQUFFLGdCQUFSO0FBQTBCQyxPQUFLLEVBQUU7QUFBakMsQ0FWWSxFQVdaO0FBQUVELE1BQUksRUFBRSxnQkFBUjtBQUEwQkMsT0FBSyxFQUFFO0FBQWpDLENBWFksRUFZWjtBQUFFRCxNQUFJLEVBQUUsYUFBUjtBQUF1QkMsT0FBSyxFQUFFO0FBQTlCLENBWlksRUFhWjtBQUFFRCxNQUFJLEVBQUUscUJBQVI7QUFBK0JDLE9BQUssRUFBRTtBQUF0QyxDQWJZLEVBY1o7QUFBRUQsTUFBSSxFQUFFLG9CQUFSO0FBQThCQyxPQUFLLEVBQUU7QUFBckMsQ0FkWSxFQWVaO0FBQUVELE1BQUksRUFBRSxZQUFSO0FBQXNCQyxPQUFLLEVBQUU7QUFBN0IsQ0FmWSxFQWdCWjtBQUFFRCxNQUFJLEVBQUUsT0FBUjtBQUFpQkMsT0FBSyxFQUFFO0FBQXhCLENBaEJZLEVBaUJaO0FBQUVELE1BQUksRUFBRSxlQUFSO0FBQXlCQyxPQUFLLEVBQUU7QUFBaEMsQ0FqQlksRUFrQlo7QUFBRUQsTUFBSSxFQUFFLGdCQUFSO0FBQTBCQyxPQUFLLEVBQUU7QUFBakMsQ0FsQlksRUFtQlo7QUFBRUQsTUFBSSxFQUFFLFNBQVI7QUFBbUJDLE9BQUssRUFBRTtBQUExQixDQW5CWSxFQW9CWjtBQUFFRCxNQUFJLEVBQUUsVUFBUjtBQUFvQkMsT0FBSyxFQUFFO0FBQTNCLENBcEJZLEVBcUJaO0FBQUVELE1BQUksRUFBRSxTQUFSO0FBQW1CQyxPQUFLLEVBQUU7QUFBMUIsQ0FyQlksRUFzQlo7QUFBRUQsTUFBSSxFQUFFLFlBQVI7QUFBc0JDLE9BQUssRUFBRTtBQUE3QixDQXRCWSxFQXVCWjtBQUFFRCxNQUFJLEVBQUUsV0FBUjtBQUFxQkMsT0FBSyxFQUFFO0FBQTVCLENBdkJZLEVBd0JaO0FBQUVELE1BQUksRUFBRSxhQUFSO0FBQXVCQyxPQUFLLEVBQUU7QUFBOUIsQ0F4QlksRUF5Qlo7QUFBRUQsTUFBSSxFQUFFLFNBQVI7QUFBbUJDLE9BQUssRUFBRTtBQUExQixDQXpCWSxFQTBCWjtBQUFFRCxNQUFJLEVBQUUsdUJBQVI7QUFBaUNDLE9BQUssRUFBRTtBQUF4QyxDQTFCWSxFQTJCWjtBQUFFRCxNQUFJLEVBQUUsVUFBUjtBQUFvQkMsT0FBSyxFQUFFO0FBQTNCLENBM0JZLEVBNEJaO0FBQUVELE1BQUksRUFBRSxhQUFSO0FBQXVCQyxPQUFLLEVBQUU7QUFBOUIsQ0E1QlksRUE2Qlo7QUFBRUQsTUFBSSxFQUFFLG1CQUFSO0FBQTZCQyxPQUFLLEVBQUU7QUFBcEMsQ0E3QlksRUE4Qlo7QUFBRUQsTUFBSSxFQUFFLG1CQUFSO0FBQTZCQyxPQUFLLEVBQUU7QUFBcEMsQ0E5QlksRUErQlo7QUFBRUQsTUFBSSxFQUFFLFVBQVI7QUFBb0JDLE9BQUssRUFBRTtBQUEzQixDQS9CWSxDQUFkOztBQWtDQSxJQUFNQyxjQUFjLEdBQUcsU0FBakJBLGNBQWlCO0FBQUEsU0FDckI7QUFBSyxTQUFLLEVBQUU7QUFBRUMsWUFBTSxFQUFFLE1BQVY7QUFBa0JDLFdBQUssRUFBRTtBQUF6QixLQUFaO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsS0FDRSxNQUFDLG9EQUFEO0FBQWdCLFNBQUssRUFBRUwsS0FBdkI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxJQURGLENBRHFCO0FBQUEsQ0FBdkI7O0tBQU1HLGM7QUFNTiwrREFBZUEsY0FBZiIsImZpbGUiOiIuL3NyYy9jb21wb25lbnRzL0NvcmVWYWx1ZXMvUmVhY3RXb3JkQ2xvdWQuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUsIHVzZVJlZiwgdXNlRWZmZWN0IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgUmVhY3RXb3JkY2xvdWQgZnJvbSBcInJlYWN0LXdvcmRjbG91ZFwiO1xuXG5jb25zdCB3b3JkcyA9IFtcbiAgeyB0ZXh0OiBcIkludGVncml0eVwiLCB2YWx1ZTogOCB9LFxuICB7IHRleHQ6IFwiRXhjZWxsZW5jZVwiLCB2YWx1ZTogNCB9LFxuICB7IHRleHQ6IFwiSW5ub3ZhdGlvblwiLCB2YWx1ZTogMiB9LFxuICB7IHRleHQ6IFwiVGVhbXdvcmtcIiwgdmFsdWU6IDQgfSxcbiAgeyB0ZXh0OiBcIlJlc3BlY3RcIiwgdmFsdWU6IDQgfSxcbiAgeyB0ZXh0OiBcIkFkYXB0YWJpbGl0eVwiLCB2YWx1ZTogNCB9LFxuICB7IHRleHQ6IFwiU3VzdGFpbmFiaWxpdHlcIiwgdmFsdWU6IDMgfSxcbiAgeyB0ZXh0OiBcIlRyYW5zcGFyZW5jeVwiLCB2YWx1ZTogMyB9LFxuICB7IHRleHQ6IFwiRGl2ZXJzaXR5IGFuZCBJbmNsdXNpb25cIiwgdmFsdWU6IDQgfSxcbiAgeyB0ZXh0OiBcIkFjY291bnRhYmlsaXR5XCIsIHZhbHVlOiA1IH0sXG4gIHsgdGV4dDogXCJDdXN0b21lciBGb2N1c1wiLCB2YWx1ZTogNSB9LFxuICB7IHRleHQ6IFwiRW1wb3dlcm1lbnRcIiwgdmFsdWU6IDQgfSxcbiAgeyB0ZXh0OiBcIkNvbnRpbnVvdXMgTGVhcm5pbmdcIiwgdmFsdWU6IDMgfSxcbiAgeyB0ZXh0OiBcIk9wZW4gQ29tbXVuaWNhdGlvblwiLCB2YWx1ZTogMyB9LFxuICB7IHRleHQ6IFwiQ3JlYXRpdml0eVwiLCB2YWx1ZTogMyB9LFxuICB7IHRleHQ6IFwiVHJ1c3RcIiwgdmFsdWU6IDQgfSxcbiAgeyB0ZXh0OiBcIkNvbGxhYm9yYXRpb25cIiwgdmFsdWU6IDQgfSxcbiAgeyB0ZXh0OiBcIlJlc3BvbnNpYmlsaXR5XCIsIHZhbHVlOiA0IH0sXG4gIHsgdGV4dDogXCJRdWFsaXR5XCIsIHZhbHVlOiA0IH0sXG4gIHsgdGV4dDogXCJIdW1pbGl0eVwiLCB2YWx1ZTogMyB9LFxuICB7IHRleHQ6IFwiUGFzc2lvblwiLCB2YWx1ZTogNCB9LFxuICB7IHRleHQ6IFwiUmVzaWxpZW5jZVwiLCB2YWx1ZTogMyB9LFxuICB7IHRleHQ6IFwiT3duZXJzaGlwXCIsIHZhbHVlOiA0IH0sXG4gIHsgdGV4dDogXCJGbGV4aWJpbGl0eVwiLCB2YWx1ZTogMyB9LFxuICB7IHRleHQ6IFwiRW1wYXRoeVwiLCB2YWx1ZTogNCB9LFxuICB7IHRleHQ6IFwiU29jaWFsIFJlc3BvbnNpYmlsaXR5XCIsIHZhbHVlOiAzIH0sXG4gIHsgdGV4dDogXCJFcXVhbGl0eVwiLCB2YWx1ZTogNCB9LFxuICB7IHRleHQ6IFwiSW5jbHVzaXZpdHlcIiwgdmFsdWU6IDQgfSxcbiAgeyB0ZXh0OiBcIkVtcG93ZXJpbmcgT3RoZXJzXCIsIHZhbHVlOiA0IH0sXG4gIHsgdGV4dDogXCJXb3JrLUxpZmUgQmFsYW5jZVwiLCB2YWx1ZTogMyB9LFxuICB7IHRleHQ6IFwiRmFpcm5lc3NcIiwgdmFsdWU6IDQgfSxcbl07XG5cbmNvbnN0IFJlYWN0V29yZENsb3VkID0gKCkgPT4gKFxuICA8ZGl2IHN0eWxlPXt7IGhlaWdodDogXCJhdXRvXCIsIHdpZHRoOiBcImF1dG9cIiB9fT5cbiAgICA8UmVhY3RXb3JkY2xvdWQgd29yZHM9e3dvcmRzfSAvPlxuICA8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IFJlYWN0V29yZENsb3VkO1xuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/CoreValues/ReactWordCloud.js\n");
 
 /***/ }),
 
@@ -212,4 +30,3 @@ $RefreshReg$(_c, "ReactWordCloud");
 /***/ })
 
 }]);
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vc3JjL2NvbXBvbmVudHMvQ29yZVZhbHVlcy9SZWFjdFdvcmRDbG91ZC5qcyIsIndlYnBhY2s6Ly9fTl9FL2lnbm9yZWR8SjpcXE9uZURyaXZlXFxPbmVEcml2ZVxcRG9jdW1lbnRzXFxHaXRIdWJcXHBvcnRmb2xpb1xcbm9kZV9tb2R1bGVzXFxzZWVkcmFuZG9tfGNyeXB0byJdLCJuYW1lcyI6WyJ3b3JkcyIsInRleHQiLCJ2YWx1ZSIsIlJlYWN0V29yZENsb3VkIiwiaGVpZ2h0Iiwid2lkdGgiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQ0E7QUFFQSxJQUFNQSxLQUFLLEdBQUcsQ0FDWjtBQUFFQyxNQUFJLEVBQUUsV0FBUjtBQUFxQkMsT0FBSyxFQUFFO0FBQTVCLENBRFksRUFFWjtBQUFFRCxNQUFJLEVBQUUsWUFBUjtBQUFzQkMsT0FBSyxFQUFFO0FBQTdCLENBRlksRUFHWjtBQUFFRCxNQUFJLEVBQUUsWUFBUjtBQUFzQkMsT0FBSyxFQUFFO0FBQTdCLENBSFksRUFJWjtBQUFFRCxNQUFJLEVBQUUsVUFBUjtBQUFvQkMsT0FBSyxFQUFFO0FBQTNCLENBSlksRUFLWjtBQUFFRCxNQUFJLEVBQUUsU0FBUjtBQUFtQkMsT0FBSyxFQUFFO0FBQTFCLENBTFksRUFNWjtBQUFFRCxNQUFJLEVBQUUsY0FBUjtBQUF3QkMsT0FBSyxFQUFFO0FBQS9CLENBTlksRUFPWjtBQUFFRCxNQUFJLEVBQUUsZ0JBQVI7QUFBMEJDLE9BQUssRUFBRTtBQUFqQyxDQVBZLEVBUVo7QUFBRUQsTUFBSSxFQUFFLGNBQVI7QUFBd0JDLE9BQUssRUFBRTtBQUEvQixDQVJZLEVBU1o7QUFBRUQsTUFBSSxFQUFFLHlCQUFSO0FBQW1DQyxPQUFLLEVBQUU7QUFBMUMsQ0FUWSxFQVVaO0FBQUVELE1BQUksRUFBRSxnQkFBUjtBQUEwQkMsT0FBSyxFQUFFO0FBQWpDLENBVlksRUFXWjtBQUFFRCxNQUFJLEVBQUUsZ0JBQVI7QUFBMEJDLE9BQUssRUFBRTtBQUFqQyxDQVhZLEVBWVo7QUFBRUQsTUFBSSxFQUFFLGFBQVI7QUFBdUJDLE9BQUssRUFBRTtBQUE5QixDQVpZLEVBYVo7QUFBRUQsTUFBSSxFQUFFLHFCQUFSO0FBQStCQyxPQUFLLEVBQUU7QUFBdEMsQ0FiWSxFQWNaO0FBQUVELE1BQUksRUFBRSxvQkFBUjtBQUE4QkMsT0FBSyxFQUFFO0FBQXJDLENBZFksRUFlWjtBQUFFRCxNQUFJLEVBQUUsWUFBUjtBQUFzQkMsT0FBSyxFQUFFO0FBQTdCLENBZlksRUFnQlo7QUFBRUQsTUFBSSxFQUFFLE9BQVI7QUFBaUJDLE9BQUssRUFBRTtBQUF4QixDQWhCWSxFQWlCWjtBQUFFRCxNQUFJLEVBQUUsZUFBUjtBQUF5QkMsT0FBSyxFQUFFO0FBQWhDLENBakJZLEVBa0JaO0FBQUVELE1BQUksRUFBRSxnQkFBUjtBQUEwQkMsT0FBSyxFQUFFO0FBQWpDLENBbEJZLEVBbUJaO0FBQUVELE1BQUksRUFBRSxTQUFSO0FBQW1CQyxPQUFLLEVBQUU7QUFBMUIsQ0FuQlksRUFvQlo7QUFBRUQsTUFBSSxFQUFFLFVBQVI7QUFBb0JDLE9BQUssRUFBRTtBQUEzQixDQXBCWSxFQXFCWjtBQUFFRCxNQUFJLEVBQUUsU0FBUjtBQUFtQkMsT0FBSyxFQUFFO0FBQTFCLENBckJZLEVBc0JaO0FBQUVELE1BQUksRUFBRSxZQUFSO0FBQXNCQyxPQUFLLEVBQUU7QUFBN0IsQ0F0QlksRUF1Qlo7QUFBRUQsTUFBSSxFQUFFLFdBQVI7QUFBcUJDLE9BQUssRUFBRTtBQUE1QixDQXZCWSxFQXdCWjtBQUFFRCxNQUFJLEVBQUUsYUFBUjtBQUF1QkMsT0FBSyxFQUFFO0FBQTlCLENBeEJZLEVBeUJaO0FBQUVELE1BQUksRUFBRSxTQUFSO0FBQW1CQyxPQUFLLEVBQUU7QUFBMUIsQ0F6QlksRUEwQlo7QUFBRUQsTUFBSSxFQUFFLHVCQUFSO0FBQWlDQyxPQUFLLEVBQUU7QUFBeEMsQ0ExQlksRUEyQlo7QUFBRUQsTUFBSSxFQUFFLFVBQVI7QUFBb0JDLE9BQUssRUFBRTtBQUEzQixDQTNCWSxFQTRCWjtBQUFFRCxNQUFJLEVBQUUsYUFBUjtBQUF1QkMsT0FBSyxFQUFFO0FBQTlCLENBNUJZLEVBNkJaO0FBQUVELE1BQUksRUFBRSxtQkFBUjtBQUE2QkMsT0FBSyxFQUFFO0FBQXBDLENBN0JZLEVBOEJaO0FBQUVELE1BQUksRUFBRSxtQkFBUjtBQUE2QkMsT0FBSyxFQUFFO0FBQXBDLENBOUJZLEVBK0JaO0FBQUVELE1BQUksRUFBRSxVQUFSO0FBQW9CQyxPQUFLLEVBQUU7QUFBM0IsQ0EvQlksQ0FBZDs7QUFrQ0EsSUFBTUMsY0FBYyxHQUFHLFNBQWpCQSxjQUFpQjtBQUFBLFNBQ3JCO0FBQUssU0FBSyxFQUFFO0FBQUVDLFlBQU0sRUFBRSxNQUFWO0FBQWtCQyxXQUFLLEVBQUU7QUFBekIsS0FBWjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEtBQ0UsTUFBQyxvREFBRDtBQUFnQixTQUFLLEVBQUVMLEtBQXZCO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsSUFERixDQURxQjtBQUFBLENBQXZCOztLQUFNRyxjO0FBTU4sK0RBQWVBLGNBQWY7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUMzQ0EsZSIsImZpbGUiOiJzdGF0aWMvY2h1bmtzL3NyY19jb21wb25lbnRzX0NvcmVWYWx1ZXNfUmVhY3RXb3JkQ2xvdWRfanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUsIHVzZVJlZiwgdXNlRWZmZWN0IH0gZnJvbSBcInJlYWN0XCI7XHJcbmltcG9ydCBSZWFjdFdvcmRjbG91ZCBmcm9tIFwicmVhY3Qtd29yZGNsb3VkXCI7XHJcblxyXG5jb25zdCB3b3JkcyA9IFtcclxuICB7IHRleHQ6IFwiSW50ZWdyaXR5XCIsIHZhbHVlOiA4IH0sXHJcbiAgeyB0ZXh0OiBcIkV4Y2VsbGVuY2VcIiwgdmFsdWU6IDQgfSxcclxuICB7IHRleHQ6IFwiSW5ub3ZhdGlvblwiLCB2YWx1ZTogMiB9LFxyXG4gIHsgdGV4dDogXCJUZWFtd29ya1wiLCB2YWx1ZTogNCB9LFxyXG4gIHsgdGV4dDogXCJSZXNwZWN0XCIsIHZhbHVlOiA0IH0sXHJcbiAgeyB0ZXh0OiBcIkFkYXB0YWJpbGl0eVwiLCB2YWx1ZTogNCB9LFxyXG4gIHsgdGV4dDogXCJTdXN0YWluYWJpbGl0eVwiLCB2YWx1ZTogMyB9LFxyXG4gIHsgdGV4dDogXCJUcmFuc3BhcmVuY3lcIiwgdmFsdWU6IDMgfSxcclxuICB7IHRleHQ6IFwiRGl2ZXJzaXR5IGFuZCBJbmNsdXNpb25cIiwgdmFsdWU6IDQgfSxcclxuICB7IHRleHQ6IFwiQWNjb3VudGFiaWxpdHlcIiwgdmFsdWU6IDUgfSxcclxuICB7IHRleHQ6IFwiQ3VzdG9tZXIgRm9jdXNcIiwgdmFsdWU6IDUgfSxcclxuICB7IHRleHQ6IFwiRW1wb3dlcm1lbnRcIiwgdmFsdWU6IDQgfSxcclxuICB7IHRleHQ6IFwiQ29udGludW91cyBMZWFybmluZ1wiLCB2YWx1ZTogMyB9LFxyXG4gIHsgdGV4dDogXCJPcGVuIENvbW11bmljYXRpb25cIiwgdmFsdWU6IDMgfSxcclxuICB7IHRleHQ6IFwiQ3JlYXRpdml0eVwiLCB2YWx1ZTogMyB9LFxyXG4gIHsgdGV4dDogXCJUcnVzdFwiLCB2YWx1ZTogNCB9LFxyXG4gIHsgdGV4dDogXCJDb2xsYWJvcmF0aW9uXCIsIHZhbHVlOiA0IH0sXHJcbiAgeyB0ZXh0OiBcIlJlc3BvbnNpYmlsaXR5XCIsIHZhbHVlOiA0IH0sXHJcbiAgeyB0ZXh0OiBcIlF1YWxpdHlcIiwgdmFsdWU6IDQgfSxcclxuICB7IHRleHQ6IFwiSHVtaWxpdHlcIiwgdmFsdWU6IDMgfSxcclxuICB7IHRleHQ6IFwiUGFzc2lvblwiLCB2YWx1ZTogNCB9LFxyXG4gIHsgdGV4dDogXCJSZXNpbGllbmNlXCIsIHZhbHVlOiAzIH0sXHJcbiAgeyB0ZXh0OiBcIk93bmVyc2hpcFwiLCB2YWx1ZTogNCB9LFxyXG4gIHsgdGV4dDogXCJGbGV4aWJpbGl0eVwiLCB2YWx1ZTogMyB9LFxyXG4gIHsgdGV4dDogXCJFbXBhdGh5XCIsIHZhbHVlOiA0IH0sXHJcbiAgeyB0ZXh0OiBcIlNvY2lhbCBSZXNwb25zaWJpbGl0eVwiLCB2YWx1ZTogMyB9LFxyXG4gIHsgdGV4dDogXCJFcXVhbGl0eVwiLCB2YWx1ZTogNCB9LFxyXG4gIHsgdGV4dDogXCJJbmNsdXNpdml0eVwiLCB2YWx1ZTogNCB9LFxyXG4gIHsgdGV4dDogXCJFbXBvd2VyaW5nIE90aGVyc1wiLCB2YWx1ZTogNCB9LFxyXG4gIHsgdGV4dDogXCJXb3JrLUxpZmUgQmFsYW5jZVwiLCB2YWx1ZTogMyB9LFxyXG4gIHsgdGV4dDogXCJGYWlybmVzc1wiLCB2YWx1ZTogNCB9LFxyXG5dO1xyXG5cclxuY29uc3QgUmVhY3RXb3JkQ2xvdWQgPSAoKSA9PiAoXHJcbiAgPGRpdiBzdHlsZT17eyBoZWlnaHQ6IFwiYXV0b1wiLCB3aWR0aDogXCJhdXRvXCIgfX0+XHJcbiAgICA8UmVhY3RXb3JkY2xvdWQgd29yZHM9e3dvcmRzfSAvPlxyXG4gIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgUmVhY3RXb3JkQ2xvdWQ7XHJcbiIsIi8qIChpZ25vcmVkKSAqLyJdLCJzb3VyY2VSb290IjoiIn0=
