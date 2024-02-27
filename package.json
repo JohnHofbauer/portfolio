@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "install": "set NODE_OPTIONS=\"--openssl-legacy-provider\"",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",

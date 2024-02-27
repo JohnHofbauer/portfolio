@@ -5,6 +5,7 @@ import Projects from "../components/Projects/Projects";
 import Technologies from "../components/Technologies/Technologies";
 import Timeline from "../components/TimeLine/TimeLine";
 import CoreValues from "../components/CoreValues/CoreValues";
+import CertificationsComponent from "../components/Certifications/Certifications";
 import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
 import Head from "next/head";
@@ -24,6 +25,7 @@ const Home = () => {
       <Timeline />
       <CoreValues />
       <Acomplishments />
+      <CertificationsComponent />
     </Layout>
   );
 };

@@ -1,0 +1,17 @@
+@use "colors";
+
+footer {
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  background-color: colors.$ColorPalletGrade4;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: inherit;
+
+  .disclaimer {
+    display: block;
+    text-align: center;
+  }
+}

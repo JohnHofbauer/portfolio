@@ -1,0 +1,25 @@
+.parallaxDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: big john;
+  width: 100%;
+  height: 100vh;
+}
+
+.parallaxImage {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parallax1_text {
+  font-size: 60px;
+  text-shadow: 1px 1px 5px azure;
+  padding: 8px 24px;
+}
