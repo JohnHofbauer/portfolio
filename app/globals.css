@@ -41,11 +41,11 @@
 
   --color-bg1: rgb(108, 0, 162);
   --color-bg2: rgb(0, 17, 82);
-  --color1: 18, 113, 255;
-  --color2: 221, 74, 255;
-  --color3: 100, 220, 255;
-  --color4: 200, 50, 50;
-  --color5: 180, 180, 50;
+  --color1: 178, 87, 235; /* Lighter purple */
+  --color2: 155, 60, 209;
+  --color3: 142, 45, 183;
+  --color4: 129, 30, 157;
+  --color5: 86, 15, 131; /* Darker purple */
   --color-interactive: 140, 100, 255;
   --circle-size: 80%;
   --blending: hard-light;
@@ -119,7 +119,7 @@ a {
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
   transition: opacity 0.5s ease-in-out; /* Fade transition */
-
+  max-width: 1500px;
   opacity: 0.9; /* Reduce opacity on hover for a subtle effect */
   @media (max-width: 500px) {
     padding: 0; /* Remove padding for small screens */
