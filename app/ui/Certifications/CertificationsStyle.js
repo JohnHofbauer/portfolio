@@ -38,6 +38,7 @@ export const CertificationContainer = styled.div`
 // CertificationText component
 export const CertificationText = styled.p`
   font-weight: bold;
+  color: rgb(228, 230, 231);
   ${SectionTitle};
 `;
 
@@ -45,6 +46,7 @@ export const CertificationText = styled.p`
 export const CertificationInfo = styled.p`
   margin-top: 1rem;
   margin-left: 1rem;
+  color: rgb(228, 230, 231);
   ${SectionText};
 `;
 
