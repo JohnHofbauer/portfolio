@@ -1,22 +1,20 @@
 {
-  "name": "portfolio_nextjs",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "install": "set NODE_OPTIONS=\"--openssl-legacy-provider\"",
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
+    "lint": "next lint",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
-    "next": "10.2.3",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-icons": "^4.2.0",
-    "react-wordcloud": "^1.2.7",
-    "styled-components": "^5.3.0",
-    "styled-normalize": "^8.0.7",
-    "wordcloud": "^1.2.2"
+    "gh-pages": "^6.1.1",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "styled-components": "^6.1.8"
   }
 }
