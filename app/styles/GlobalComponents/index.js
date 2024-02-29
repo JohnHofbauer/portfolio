@@ -20,9 +20,8 @@ export const Section = styled.section`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
-
-    width: calc(100vw - 32px);
+    padding: 0px;
+    margin-left: 0;
     flex-direction: column;
   }
 `;
@@ -165,7 +164,7 @@ export const SecondaryBtn = styled.button`
     margin-bottom: 40px;
     padding: 8px 16px;
     width: 100%;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 16px;
   }
 `;

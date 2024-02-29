@@ -75,7 +75,7 @@ export const CompanyContainer = styled.div`
     display: flex;
     flex-direction: column;
     margin: 0 0 32px;
-    align-items: center;
+    align-items: left;
   }
 `;
 
@@ -96,6 +96,10 @@ export const Slogan = styled.p`
     line-height: 22px;
     font-size: 14px;
     min-width: 100px;
+    padding: 0px;
+    white-space: normal;
+    word-break: break-word;
+    width: 200px;
   }
 `;
 

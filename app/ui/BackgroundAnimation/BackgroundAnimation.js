@@ -4,7 +4,7 @@ import { BackgroundDiv } from "./BackgrounStyles";
 
 const BackgroundAnimation = () => {
   return (
-    <BackgroundDiv class="gradient-bg">
+    <BackgroundDiv className="gradient-bg">
       <svg xmlns="http://www.w3.org/2000/svg">
         <defs>
           <filter id="goo">
@@ -23,13 +23,13 @@ const BackgroundAnimation = () => {
           </filter>
         </defs>
       </svg>
-      <div class="gradients-container">
-        <div class="g1"></div>
-        <div class="g2"></div>
-        <div class="g3"></div>
-        <div class="g4"></div>
-        <div class="g5"></div>
-        <div class="interactive"></div>
+      <div className="gradients-container">
+        <div className="g1"></div>
+        <div className="g2"></div>
+        <div className="g3"></div>
+        <div className="g4"></div>
+        <div className="g5"></div>
+        <div className="interactive"></div>
       </div>
     </BackgroundDiv>
   );

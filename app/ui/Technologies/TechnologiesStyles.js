@@ -14,7 +14,12 @@ import {
 export const SkillsContainer = styled(FlexContainer)``;
 
 // SkillContainer component
-export const SkillContainer = styled(FlexItem)``;
+export const SkillContainer = styled(FlexItem)`
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 80px;
+    height: 60px;
+  }
+`;
 
 // SkillText component
 export const SkillText = styled.p`
@@ -25,6 +30,12 @@ export const SkillText = styled.p`
 export const SkillInfo = styled.p`
   margin-top: 5px;
   margin-left: 20px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 0rem;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
 `;
 
 // IconContainer component with limited size
