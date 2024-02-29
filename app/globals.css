@@ -121,6 +121,9 @@ a {
   transition: opacity 0.5s ease-in-out; /* Fade transition */
 
   opacity: 0.9; /* Reduce opacity on hover for a subtle effect */
+  @media (max-width: 500px) {
+    padding: 0; /* Remove padding for small screens */
+  }
 }
 
 #Content:hover {

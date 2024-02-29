@@ -19,8 +19,9 @@ export const GridContainer = styled.section`
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
-    padding-left: 0;
-    padding-bottom: 0;
+    padding: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
   }
 `;
 export const BlogCard = styled.div`
@@ -28,6 +29,9 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  @media ${(props) => props.theme.breakpoints.phone} {
+    width: auto;
+  }
 `;
 export const TitleContent = styled.div`
   text-align: center;
@@ -71,6 +75,10 @@ export const CardInfo = styled.p`
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 1rem;
     font-size: 12px;
+  }
+  @media ${(props) => props.theme.breakpoints.phone} {
+    padding: 5px;
+    font-size: 10px;
   }
 `;
 
